@@ -7,6 +7,7 @@ struct ContentView: View {
                 .ignoresSafeArea()
             VStack {
                 Text("I AM RICH")
+                    .font(.system(.largeTitle))
             }
         }
     }
